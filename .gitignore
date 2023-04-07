@@ -1,0 +1,32 @@
+# vim/emacs swap file
+*.swp
+*~
+
+# log files
+*.log
+*.log.*
+
+# dir genereated by build script
+output
+
+# mac auto generated files
+.idea
+.DS_Store
+
+# Output of the go coverage tool and nohup
+*.out
+
+# binaries
+
+# binary that built with `go test -c`
+*.test
+
+# we use go.mod now, no need to add vendor dir into repo
+vendor/
+
+# code coverage generated file
+coverfunc.out
+code_coverage.html
+code_coverage.xml
+
+
